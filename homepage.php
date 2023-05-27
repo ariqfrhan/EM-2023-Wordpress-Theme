@@ -415,8 +415,8 @@
       navbar.classList.remove('bg-transparent');
       navbar.classList.add('bg-color');
 
-      // Menambahkan efek transisi
-      navbar.style.transition = 'background-color 1s, padding-top 1s';
+      // Menambahkan efek transisi smooth
+      navbar.style.transition = 'background-color 1s ease, padding-top 1s ease';
 
       // Menambahkan padding top untuk menampilkan konten di belakang navbar
       var navbar_height = document.querySelector('.navbar').offsetHeight;
@@ -432,8 +432,8 @@
       // Menghapus padding top dari body
       document.body.style.paddingTop = '0';
     }
-    });
   });
+});
     </script>
     <script>
       AOS.init();
