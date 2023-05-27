@@ -120,7 +120,7 @@
 
     <header id="hero">
       <div class="container-fluid">
-        <div class="col-lg-12">
+        <div class="col-lg-12" data-aos="fade-down" data-aos-duration="1000">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -164,21 +164,21 @@
         <div class="row align-items-center">
           <div data-aos="fade-right" data-aos-duration="1000" id="title-news" class="col-lg-7">
             <div class="row align-items-center">
-              <div id="kominfo-logo" class="col-lg-7">
-                <img src="<?php echo get_theme_file_uri("/assets/images/KOMINFO 1.png")?>" width="380px">
+              <div id="kominfo-logo" class="col-lg-7 col-sm-6 d-none d-sm-block">
+                <img src="<?php echo get_theme_file_uri("/assets/images/KOMINFO 1.png")?>" class="kominfo-logo">
               </div>
-              <div id="header-news" class="col-lg-5">
+              <div id="header-news" class="col-lg-5 col-sm-6">
                 <h2 class="fw-bold atas">Berita</h2>
                 <h2 class="fw-bold bawah">EM UB 2023</h2>
               </div>
-              <div id="deskripsi-news" class="col-lg-12">
+              <div id="deskripsi-news" class="col-lg-12 col-sm-6">
                 <p class="text-center fw-bold">EM UB 2023 menyajikan informasi seputar akademik,<br> kegiatan mahasiswa, beasiswa, magang dan lainnya.</p>
               </div>
             </div>
           </div>
           <div data-aos="fade-left" data-aos-duration="1000" class="col-lg-5">
             <div class="row align-items-center">
-              <div id="card" class="col-lg-8">
+              <div id="card" class="col-lg-8 col-sm-6">
                 <?php 
                   if (has_post_thumbnail()) {
                     echo the_post_thumbnail('on-post-thumbnail');
@@ -210,10 +210,10 @@
         </div>
         <div id="riseCard" data-aos="zoom-out-up" data-aos-duration="1000">
           <div class="row">
-            <div id="foto-card" class="col-lg-5">
-              <img src="<?php echo get_theme_file_uri("/assets/images/Tinju.png")?>" alt="pres-wapres" width="380px" class="ms-5">
+            <div id="foto-card" class="col-lg-5 col-sm-12">
+              <img src="<?php echo get_theme_file_uri("/assets/images/Tinju.png")?>" alt="pres-wapres" class="ms-lg-4 ms-5 foto-card img-fluid">
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-sm-12">
               <h4 class="text-white mt-4 fw-bold bg-fun text-center">Fundamental Value</h4>
               <div class="row p-5 text-center">
                 <div class="col-5">
@@ -327,7 +327,7 @@
               </div>
             </div>
           </div>
-          <div id="accor-78" class="col-lg-12 pt-4">
+          <div id="accor-78" class="col-lg-12">
             <div class="accordion" id="accordion3">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accordion3-headingOne">
@@ -365,7 +365,7 @@
       <div class="container-fluid">
         <div class="row">
           <div id="mobile-footer" class="col-lg-12">
-            <ul>
+            <ul class="">
               <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/linkedin.png")?>" width="20px"></a></li>
               <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/twitter-white.png")?>" width="26px"></a></li>
               <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/tiktok-white.png")?>" width="26px"></a></li>

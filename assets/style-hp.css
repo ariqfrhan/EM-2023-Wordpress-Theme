@@ -14,7 +14,7 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
 
 /* Navbar */
 .nav-link {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -152,7 +152,6 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
 #hero{
     padding-top: 0;
     height: auto;
-    width: 100vw;
 }
 
 .carousel-control-prev-icon 
@@ -257,6 +256,10 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
     font-weight: normal;
 }
 
+.kominfo-logo{
+    width: 380px;
+}
+
 .bawah{
     color: #F89F1F;
 }
@@ -311,9 +314,15 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
     font-size: 18px;
 } */
 #rise #riseCard p:hover{
-    transform: scale(1.08);
-    transition: 1s;
+    transform: translateY(-4px);
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 15px 2px #F89F1F;
+    box-shadow: 0px 0px 15px 2px #F89F1F;
     cursor: pointer;
+}
+
+.foto-card{
+    width:380px;
 }
 
 /* Proker Unggulan */
@@ -410,13 +419,10 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 428px) {
     #news{
         padding-top: 5vh;
         height: auto;
-    }
-    #kominfo-logo{
-        display: none;
     }
 
     #deskripsi-news{
@@ -437,12 +443,12 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
         height: auto;
     }
 
-    #foto-card{
-        display: none;
+    .foto-card{
+        width: 240px;
     }
 
     .bg-fun{
-        margin-left: 5vw;
+        margin-left: 5%;
         text-align: center;
     }
 
@@ -459,11 +465,6 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
     #proker{
         padding-top: 10vh;
         height: auto;
-    }
-
-    #accor-78{
-        padding-top: 0;
-        margin-top: -3vh;
     }
 
     #footer{
@@ -503,6 +504,101 @@ background: linear-gradient(0deg, rgba(246,247,239,0.06206232492997199) 3%, rgba
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width:1200px){
+    #news{
+        padding-top: 5vh;
+        height: auto;
+    }
+
+    #deskripsi-news{
+        display: none;
+    }
+    #header-news{
+        margin-bottom: 2vh;
+    }
+
+    .btn-warning{
+        margin-top: 5vh;
+        margin-left: 30vw;
+        margin-right: 27vw;
+    }
+
+    #rise{
+        padding-top: 10vh;
+        height: auto;
+    }
+
+    .foto-card{
+        width: 240px;
+    }
+
+    .bg-fun{
+        margin-left: 20vw;
+        text-align: center;
+    }
+
+    .bg-poin{
+        font-size: 14px;
+        margin-left: 2vw;
+        width: 30vw;
+    }
+
+    #riseCard #kanan{
+        margin-left: 3vw;
+    }
+
+    
+    #foto-card{
+        margin-left: 25%;
+    }
+
+    #proker{
+        padding-top: 10vh;
+        height: auto;
+    }
+
+    #footer{
+        height: auto;
+        background-color: #000000;
+    }
+
+    #footer #copyright{
+        padding-top: 0px;
+        padding-bottom: 0;
+        font-size: 12px;
+        border-radius: 0;
+        text-align: center;
+    }
+
+    #footer #mobile-footer{
+        display: block;
+    }
+
+    #footer #mobile-footer ul{
+        margin-left: 18%;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 2vh;
+        border-radius: 75px;
+        color: white;
+        list-style: none;
+        display: flex;
+    }
+
+    #footer #mobile-footer ul li{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #footer #socmed-footer{
+        display: none;
+    }
+
+    #footer #address-footer{
+        display: none;
+    }
+}
 
 
 
