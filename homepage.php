@@ -25,6 +25,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_theme_file_uri("/assets/style-hp.css") ?>" />
   </head>
@@ -161,7 +162,7 @@
     <section id="news">
       <div class="container">
         <div class="row align-items-center">
-          <div id="title-news" class="col-lg-7">
+          <div data-aos="fade-right" data-aos-duration="1000" id="title-news" class="col-lg-7">
             <div class="row align-items-center">
               <div id="kominfo-logo" class="col-lg-7">
                 <img src="<?php echo get_theme_file_uri("/assets/images/KOMINFO 1.png")?>" width="380px">
@@ -175,7 +176,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-5">
+          <div data-aos="fade-left" data-aos-duration="1000" class="col-lg-5">
             <div class="row align-items-center">
               <div id="card" class="col-lg-8">
                 <?php 
@@ -203,11 +204,11 @@
 
     <section id="rise">
       <div class="container">
-        <div id="title-news" class="col-lg-12">
+        <div id="title-news" class="col-lg-12" data-aos="fade-right" data-aos-duration="1000">
           <h2 class="fw-bold atas">RISE OF</h2>
           <h2 class="fw-bold bawah">BRAWIJAYANS!</h2>
         </div>
-        <div id="riseCard">
+        <div id="riseCard" data-aos="zoom-out-up" data-aos-duration="1000">
           <div class="row">
             <div id="foto-card" class="col-lg-5">
               <img src="<?php echo get_theme_file_uri("/assets/images/Tinju.png")?>" alt="pres-wapres" width="380px" class="ms-5">
@@ -234,11 +235,11 @@
 
     <section id="proker">
       <div class="container">
-        <div class="title-proker">
+        <div class="title-proker" data-aos="fade-right" data-aos-duration="1000">
           <h2 class="fw-bold atas">PROGRAM KERJA</h2>
           <h2 class="fw-bold bawah">UNGGULAN EM UB 2023</h2>
         </div>
-        <div class="accordion-proker">
+        <div class="accordion-proker" data-aos="fade-up" data-aos-duration="1000">
           <div class="row">
             <div class="col-lg-6">
               <div class="accordion" id="accordion1">
@@ -404,6 +405,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener('scroll', function() {
@@ -432,6 +434,9 @@
     }
     });
   });
+    </script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
