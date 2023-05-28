@@ -12,6 +12,10 @@ function em_style(){
 
 add_action('wp_enqueue_scripts', 'em_style');
 
+function homepage(){
+    require("homepage.php");
+}
+
 function about(){
     require("page-about.php");
 }
@@ -37,4 +41,41 @@ function kemenkoan($attr) {
     }
 }
 add_shortcode('kemenkoan', 'kemenkoan');
+
+function kementerian($attr) {
+    if($attr){
+        if(array_values($attr)[0] == "advo"){
+            require("page-menteri.advo.php");
+        }else if(array_values($attr)[0] == "budpora"){
+            require("page-menteri.budpora.php");
+        }else if(array_values($attr)[0] == "bumm"){
+            require("page-menteri.bumm.php");
+        }else if(array_values($attr)[0] == "dagri"){
+            require("page-menteri.dagri.php");
+        }else if(array_values($attr)[0] == "keuangan"){
+            require("page-menteri.keuangan.php");
+        }else if(array_values($attr)[0] == "kominfo"){
+            require("page-menteri.kominfo.php");
+        }else if(array_values($attr)[0] == "lh"){
+            require("page-menteri.lh.php");
+        }else if(array_values($attr)[0] == "lugri"){
+            require("page-menteri.lugri.php");
+        }else if(array_values($attr)[0] == "p3"){
+            require("page-menteri.p3.php");
+        }else if(array_values($attr)[0] == "pao"){
+            require("page-menteri.pao.php");
+        }else if(array_values($attr)[0] == "psdm"){
+            require("page-menteri.psdm.php");
+        }else if(array_values($attr)[0] == "rispensi"){
+            require("page-menteri.rispensi.php");
+        }else if(array_values($attr)[0] == "sekkab"){
+            require("page-menteri.sekkab.php");
+        }else if(array_values($attr)[0] == "sosma"){
+            require("page-menteri.sosma.php");
+        }
+    }else{
+        require("page-pres.wapres.php");
+    }
+}
+add_shortcode('kementerian', 'kementerian');
 ?>

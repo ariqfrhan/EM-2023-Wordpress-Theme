@@ -94,7 +94,7 @@ get_header() ?>
 <header id="menko">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-12 my-auto" data-aos="fade-right" data-aos-duration="1000">
+      <div class="col-md-7 col-12 my-auto" data-aos="fade-right" data-aos-duration="1000">
         <div class="title-menko text-md-start text-sm-start text-center">
           <h2 class="fw-bold">KEMENTERIAN KOORDINATOR <br> PELAYANAN</h2>
           <h2 class="fw-bold bawah">EM UB 2023</h2>
@@ -103,7 +103,7 @@ get_header() ?>
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+      <div class="col-md-5 col-12" data-aos="fade-up" data-aos-duration="1000">
         <img src="<?php echo get_theme_file_uri("/assets/images/menko-pelayanan.png") ?>" class="justify-content-center" id="img-menko">
       </div>
     </div>
@@ -115,15 +115,15 @@ get_header() ?>
     <div class="row justify-content-center text-center">
       <div class="col-lg-4 col-sm-6" data-aos="zoom-out-up" data-aos-duration="1000">
         <img src="<?php echo get_theme_file_uri("/assets/images/kominfo-logo.png") ?>" class="image-logo" onclick="window.open('https://em.ub.ac.id/', '_blank')">
-        <h2 class="fw-bold">Komunikasi dan Informatika</h2>
+        <h3 class="fw-bold">Komunikasi dan Informatika</h3>
       </div>
       <div class="col-lg-4 col-sm-6" data-aos="zoom-out-up" data-aos-duration="1000">
         <img src="<?php echo get_theme_file_uri("/assets/images/dagri-logo.png") ?>" class="image-logo" onclick="window.open('https://em.ub.ac.id/', '_blank')">
-        <h2 class="fw-bold">Dalam Negeri</h2>
+        <h3 class="fw-bold">Dalam Negeri</h3>
       </div>
       <div class="col-lg-4 col-sm-6" data-aos="zoom-out-up" data-aos-duration="1000">
         <img src="<?php echo get_theme_file_uri("/assets/images/lugri-logo.png") ?>" class="image-logo" onclick="window.open('https://em.ub.ac.id/', '_blank')">
-        <h2 class="fw-bold">Luar Negeri</h2>
+        <h3 class="fw-bold">Luar Negeri</h3>
       </div>
     </div>
   </div>

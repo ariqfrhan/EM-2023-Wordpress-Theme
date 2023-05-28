@@ -17,6 +17,7 @@
       Universitas
       Brawijaya
     />
+	  <title>EM UB 2023</title>
     <meta property="og:url" content=https://em.ub.ac.id/>
     <meta property="og:description" />
     <meta property="og:type" content="website" />
@@ -48,13 +49,21 @@
               <a class="nav-link" href="#">Berita</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Tentang</a>
+              <a class="nav-link" href="https://em.ub.ac.id/tentang">Tentang</a>
             </li>
             <li class="nav-item dropdown me-3">
               <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Kemenkoan
               </a>
               <ul class="dropdown-menu animate slideIn">
+              <li><a class="dropdown-item" href="#">Kepresidenan</a>
+                  <ul class="dropdown-menu dropdown-submenu animate slideIn">
+                    <li>
+                      <a class="dropdown-item" href="#">Presiden & Wakil Presiden</a>
+                      <a class="dropdown-item" href="#">Sekretariat Presiden</a>
+                    </li>
+                  </ul>
+                </li>
                 <li><a class="dropdown-item" href="#">Internal</a>
                   <ul class="dropdown-menu dropdown-submenu animate slideIn">
                     <li>

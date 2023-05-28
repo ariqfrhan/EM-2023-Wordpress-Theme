@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+font-family: 'Poppins', sans-serif;
+}
 body {
     background-color: #F6F7EF;
+}
+
+p{
     font-family: 'Poppins';
+}
+
+h1{
+	font-family: 'Poppins';
 }
 
 #content{
@@ -14,7 +25,6 @@ transition: 2s;
 }
 
 .bg-transparent{
-    margin-top: -2%;
     transition: 1s;
 }
 
@@ -391,7 +401,7 @@ transition: 2s;
 
 #footer #copyright{
     padding-top: 8.5vh;
-    padding-bottom: 5.5vh;
+    padding-bottom: 6.3vh;
     background-color: #000000;
     border-radius: 0 70px 70px 0;
     font-size: 15px;
