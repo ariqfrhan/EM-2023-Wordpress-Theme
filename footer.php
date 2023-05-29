@@ -3,12 +3,12 @@
       <div class="container-fluid">
         <div class="row">
           <div id="mobile-footer" class="col-lg-12">
-            <ul>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/linkedin.png")?>" width="20px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/twitter-white.png")?>" width="26px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/tiktok-white.png")?>" width="26px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/instagram-white.png")?>" width="26px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/youtube-white.png")?>" width="26px"></a></li>
+          <ul>
+              <li class="ms-3"><a href="https://www.linkedin.com/company/em-ub-2022/"><img src="<?php echo get_theme_file_uri("/assets/images/linkedin.png")?>" width="20px"></a></li>
+              <li class="ms-3"><a href="https://twitter.com/em_ubofficial"><img src="<?php echo get_theme_file_uri("/assets/images/twitter-white.png")?>" width="26px"></a></li>
+              <li class="ms-3"><a href="https://www.tiktok.com/@em_ubofficial"><img src="<?php echo get_theme_file_uri("/assets/images/tiktok-white.png")?>" width="26px"></a></li>
+              <li class="ms-3"><a href="https://www.instagram.com/em_ubofficial/"><img src="<?php echo get_theme_file_uri("/assets/images/instagram-white.png")?>" width="26px"></a></li>
+              <li class="ms-3"><a href="https://www.youtube.com/@EMUBOfficial"><img src="<?php echo get_theme_file_uri("/assets/images/youtube-white.png")?>" width="26px"></a></li>
               <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/telephone_.png")?>" width="20px"></a></li>
               <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/line.png")?>" width="26px"></a></li>
               <li class="ms-4"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/🦆 icon _location_.png")?>" width="20px"></a></li>
@@ -21,20 +21,20 @@
             <ul id="socmed-footer" class="mx-auto">
               <li class="mx-auto">Social Media</li>
               <li class="mx-auto">|</li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/linkedin.png")?>" width="20px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/twitter-white.png")?>" width="26px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/tiktok-white.png")?>" width="26px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/instagram-white.png")?>" width="26px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/youtube-white.png")?>" width="26px"></a></li>
+              <li class="ms-1"><a href="https://www.linkedin.com/company/em-ub-2022/"><img src="<?php echo get_theme_file_uri("/assets/images/linkedin.png")?>" width="20px"></a></li>
+              <li class="ms-3"><a href="https://twitter.com/em_ubofficial"><img src="<?php echo get_theme_file_uri("/assets/images/twitter-white.png")?>" width="26px"></a></li>
+              <li class="ms-3"><a href="https://www.tiktok.com/@em_ubofficial"><img src="<?php echo get_theme_file_uri("/assets/images/tiktok-white.png")?>" width="26px"></a></li>
+              <li class="ms-3"><a href="https://www.instagram.com/em_ubofficial/"><img src="<?php echo get_theme_file_uri("/assets/images/instagram-white.png")?>" width="26px"></a></li>
+              <li class="ms-3"><a href="https://www.youtube.com/@EMUBOfficial"><img src="<?php echo get_theme_file_uri("/assets/images/youtube-white.png")?>" width="26px"></a></li>
               <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/telephone_.png")?>" width="20px"></a></li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/line.png")?>" width="26px"></a></li>
+              <li class="ms-3 me-2"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/line.png")?>" width="26px"></a></li>
             </ul>
           </div>
           <div class="col-lg-3">
             <ul id="address-footer" class="mx-auto">
               <li class="ms-2">Address</li>
               <li class="ms-3">|</li>
-              <li class="ms-3"><a href=""><img src="<?php echo get_theme_file_uri("/assets/images/🦆 icon _location_.png")?>" width="20px"></a></li>
+              <li class="ms-3"><a href="https://goo.gl/maps/wbEPLENrV6cLkPpcA?coh=178572&entry=tt"><img src="<?php echo get_theme_file_uri("/assets/images/🦆 icon _location_.png")?>" width="20px"></a></li>
             </ul>
           </div>
         </div>

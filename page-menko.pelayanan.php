@@ -62,7 +62,6 @@ get_header() ?>
 
     #menko #img-menko{
       width: 480px;
-      margin-left: -12%;
     }
 
     .image-logo {
@@ -78,7 +77,6 @@ get_header() ?>
 
     #menko #img-menko{
       width: 480px;
-      margin-left: -12%;
     }
 
     .image-logo {
@@ -103,7 +101,7 @@ get_header() ?>
           </div>
         </div>
       </div>
-      <div class="col-md-5 col-12" data-aos="fade-up" data-aos-duration="1000">
+      <div class="col-md-5 col-12 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000">
         <img src="<?php echo get_theme_file_uri("/assets/images/menko-pelayanan.png") ?>" class="justify-content-center" id="img-menko">
       </div>
     </div>

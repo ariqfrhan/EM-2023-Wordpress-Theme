@@ -85,36 +85,61 @@ get_header() ?>
         <div class="row row-cols-md-2 row-cols-1">
             <?php
             $leftAccordionData = array(
-                // array(
-                //     "heading" => "Awarding Staff",
-                //     "content" => "Awarding Staff merupakan suatu kegiatan program kerja sebagai bentuk apresiasi yang diberikan kepada kepada pengurus EM UB yang berkomitmen tinggi dan menjadi yang paling baik diantara yang terbaik yang nantinya akan diposting dalam feed akun instagram EM mengadakan acara award secara langsung."
-                // ),
-                // array(
-                //     "heading" => "Farewell Party",
-                //     "content" => "Farewell Party merupakan suatu kegiatan perpisahan untuk mengapresiasi setelah 1 periode kepengurusan para pengurus dan menjadi acara penutup setelah 1 tahun EM UB 2023 bekerja."
-                // ),
-                // array(
-                //     "heading" => "OPSI (Optimalisasi dan Evaluasi)",
-                //     "content" => "Opsi merupakan suatu pelatihan workshop softkill dan juga seminar di khususkan untuk pengembangan internal staff EM UB 2023. Opsi juga merupakan salah satu cara untuk mengetahui kekurangan, kelemahan, dan kekuatan dalam segi perencanaan dan implementasi kegiatan/program."
-                // ),
-                // array(
-                //     "heading" => "PENA (Penilaian Kinerja)",
-                //     "content" => "PENA (Penilaian kinerja) ini merupakan suatu bentuk penilaian sebagai tujuan untuk menilai kinerja dari para BPI/H& Staff disetiap Biro/Kementrian nya yang apabila terdapat ditemukannya hasil penilaian yang kurang baik maka akan dilakukan pemanggilan untuk dievaluasi."
-                // )
+                array(
+                    "heading" => "RAJA Brawijaya",
+                    "content" => "RAJA Brawijaya atau Rangkaian Acara Jelajah Almamater Universitas Brawijaya
+                    adalah serangkaian kegiatan yang bertujuan untuk memfasilitasi mahasiswa baru Universitas Brawijaya agar dapat mengetahui hal-hal yang terkait dengan kehidupan
+                    kampus. Rangkaian ini terdiri dari tiga rangkaian yakni PKKMB, PBPK, OH."
+                ),
+                array(
+                    "heading" => "BLB (Brawijaya Leadership Bootcamp)",
+                    "content" => "BLB merupakan kegiatan yang bertujuan untuk membekali mahasiswa dengan keterampilan
+                    menyelenggarakan kegiatan kemahasiswaan dengan perencanaan dan sistematika
+                    yang baik, dengan kurikulum LKMM DIKTI KEMDIKBUD 2020."
+                ),
+                array(
+                    "heading" => "KIAK (Kanal Informasi Agama dan Kebangsaan)",
+                    "content" => "KIAK memberikan wadah atau sarana untuk penyampaian dari
+                    berbagai sudut pandang dan nantinya akan analisa oleh para ahli dibidangnya terkait isi
+                    dari pendapat mahasiswa UB baik pengetahuan wawasan kebangsaan dan radikalisme
+                    serta kerohanian."
+                ),
+                array(
+                    "heading" => "SKB (Sekolah Kebangsaan Brawijaya)",
+                    "content" => "SKB merupakan program kerja berupa kegiatan seminar dialog
+                    perspektif dan training bersama mahasiswa Universitas Brawijaya untuk meningkatkan
+                    spiritual kebangsaan dan bela negara dalam menghadapi pengaruh dan ajakan
+                    radikalisme baik di lingkup internal maupun eksternal perguruan tinggi."
+                )
             );
             $rightAccordionData = array(
-                // array(
-                //     "heading" => "BOCIL (Bounding N Chill)",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "Oprec Staff Ahli/Magang, Welcoming Staff, dan Training Organization",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "RAKAB (Rapat Kabinet)",
-                //     "content" => "Rapat kerja ini diharapkan menjadi jalan terang bagi pengurus EM UB 23 untuk mewujudkan visi melalui berbagai misi selama satu periode kedepan. Mengingat bahwa dalam menjalankan program kerja, masing masing kementerian pasti akan saling bersinergi dengan kementerian yang lain. Sehingga penting bagi Kabinet Karya Paripurna untuk melakukan harmonisasi semaksimal mungkin."
-                // ),
+                array(
+                    "heading" => "LKMM TL",
+                    "content" => "LKMM TL merupakan rangkaian alur kaderisasi lanjutan dari LKMM TM dalam bentuk
+                    seminar, praktik sebagai wujud pembekalan mahasiswa dengan wawasan dan keterampilan mengelola opini publik yang dapat menyokong mahasiswa untuk siap
+                    menghadapi bonus demografi."
+                ),
+                array(
+                    "heading" => "PKM UB",
+                    "content" => "PKM merupakan Pembuatan Pedoman Kaderisasi Mahasiswa Universitas Brawijaya oleh Kementrian
+                    PSDM."
+                ),
+                array(
+                    "heading" => "FYM (For Your Motivation)",
+                    "content" => "FYM adalah program kerja yang mana mengapresiasi mahasiswa UB yang
+                    memenangkan suatu perlombaan serta mereka dapat bercerita mengenai struggle yang
+                    mereka hadapi dalam mencapai suatu kemenangan."
+                ),
+                array(
+                    "heading" => "Lingkar PSDM",
+                    "content" => "Lingkar PSDM merupakan kegiatan forum atau kajian bersama kementerian PSDM BEM fakultas seluruh UB sehingga
+                    terciptanya kolaborasi yang Inovatif, Adaptif, Kolaboratif dan Transformasi."
+                ),
+                array(
+                    "heading" => "Lingkar Keagamaan",
+                    "content" => "Lingkar Keagamaan merupakan program kerja berupa kegiatan diskusi/kajian terkait isu dan permasalahan mahasiswa dalam
+                    mencegah adanya radikalisme di lingkungan kampus."
+                ),
 
             );
             //leftAccordion

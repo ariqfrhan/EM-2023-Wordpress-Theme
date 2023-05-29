@@ -85,37 +85,57 @@ get_header() ?>
         <div class="row row-cols-md-2 row-cols-1">
             <?php
             $leftAccordionData = array(
-                // array(
-                //     "heading" => "Awarding Staff",
-                //     "content" => "Awarding Staff merupakan suatu kegiatan program kerja sebagai bentuk apresiasi yang diberikan kepada kepada pengurus EM UB yang berkomitmen tinggi dan menjadi yang paling baik diantara yang terbaik yang nantinya akan diposting dalam feed akun instagram EM mengadakan acara award secara langsung."
-                // ),
-                // array(
-                //     "heading" => "Farewell Party",
-                //     "content" => "Farewell Party merupakan suatu kegiatan perpisahan untuk mengapresiasi setelah 1 periode kepengurusan para pengurus dan menjadi acara penutup setelah 1 tahun EM UB 2023 bekerja."
-                // ),
-                // array(
-                //     "heading" => "OPSI (Optimalisasi dan Evaluasi)",
-                //     "content" => "Opsi merupakan suatu pelatihan workshop softkill dan juga seminar di khususkan untuk pengembangan internal staff EM UB 2023. Opsi juga merupakan salah satu cara untuk mengetahui kekurangan, kelemahan, dan kekuatan dalam segi perencanaan dan implementasi kegiatan/program."
-                // ),
-                // array(
-                //     "heading" => "PENA (Penilaian Kinerja)",
-                //     "content" => "PENA (Penilaian kinerja) ini merupakan suatu bentuk penilaian sebagai tujuan untuk menilai kinerja dari para BPI/H& Staff disetiap Biro/Kementrian nya yang apabila terdapat ditemukannya hasil penilaian yang kurang baik maka akan dilakukan pemanggilan untuk dievaluasi."
-                // )
+                array(
+                    "heading" => "Crisis Center EM UB",
+                    "content" => "Crisis Center EM UB 2023 merupakan wadah bagi mahasiswa/i Universitas Brawijaya
+                    dalam memperoleh informasi, pendampingan serta pengawalan pengajuan bantuan
+                    keuangan (IPI/UKT) yang diajukan selama proses perkuliahan."
+                ),
+                array(
+                    "heading" => "Advo Siaga",
+                    "content" => "Advo Siaga merupakan wadah untuk melakukan penyebaran beragam informasi yang berkaitan dengan
+                    kebutuhan mahasiswa dan menyampaikan keluhannya."
+                ),
+                array(
+                    "heading" => "Keliling Yuk, Braw!",
+                    "content" => "Keliling Yuk, Braw! merupakan program pemberian informasi dan publikasi tentang sarana maupun prasarana yang ada di Universitas Brawijaya dengan mengambil topik sesuai dengan
+                    urgensi tertentu sehingga dapat menghasilkan output berupa konten video yang kreatif
+                    dan inovatif menyesuaikan trend yang ada."
+                ),
+                array(
+                    "heading" => "Brawijayans Care",
+                    "content" => "Brawijayans Care hadir untuk memberikan konten pencerdasan yang dapat
+                    meningkatkan pengetahuan dan kesadaran akan kesehatan mental, menyediakan
+                    dukungan berupa layanan konseling dan wadah untuk bercerita serta rangkaian
+                    seminar untuk mahasiswa/i Universitas Brawijaya dan umum."
+                )
             );
             $rightAccordionData = array(
-                // array(
-                //     "heading" => "BOCIL (Bounding N Chill)",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "Oprec Staff Ahli/Magang, Welcoming Staff, dan Training Organization",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "RAKAB (Rapat Kabinet)",
-                //     "content" => "Rapat kerja ini diharapkan menjadi jalan terang bagi pengurus EM UB 23 untuk mewujudkan visi melalui berbagai misi selama satu periode kedepan. Mengingat bahwa dalam menjalankan program kerja, masing masing kementerian pasti akan saling bersinergi dengan kementerian yang lain. Sehingga penting bagi Kabinet Karya Paripurna untuk melakukan harmonisasi semaksimal mungkin."
-                // ),
-
+                array(
+                    "heading" => "Brawijaya Scholarship Center",
+                    "content" => "Brawijaya Scholarship Center merupakan program kerja yang dirancang untuk membantu mahasiswa
+                    memahami dan mengejar peluang beasiswa yang tersedia dengan cara yang efektif
+                    dan efisien."
+                ),
+                array(
+                    "heading" => "Theassist",
+                    "content" => "Theassist merupakan program pembantuan pengerjaan skripsi yang berkolaborasi
+                    dengan CT Institute dengan cara membuka open registration untuk mahasiswa yang
+                    berminat melakukan konsultasi mengenai skripsinya lalu akan dihubungkan ke CT
+                    Institute untuk melakukan konsultasinya."
+                ),
+                array(
+                    "heading" => "Advo News!",
+                    "content" => "Advo News! adalah tempat penyebaran berita mengenai bantuan-bantuan dan
+                    kebijakan-kebijakan yang diberikan oleh Universitas Brawijaya sebagai tempat disebarluaskan dan diberikan transparansinya dari maksud dan urgensi bantuan-bantuan dan kebijakan kebijakan yang diberikan."
+                ),
+                array(
+                    "heading" => "#SOBAT Brawijayans (Sobat Sambat Brawijayans)",
+                    "content" => "#SOBAT Brawijayans merupakan program yang memberikan layanan aduan terkait permasalahan atau
+                    keluhan mahasiswa dari masing-masing fakultas yang membahas mengenai semua
+                    masalah perkuliahan dari akademik, fasilitas, finansial, kemahasiswaan, disabilitas,
+                    mental health, dan lain-lain."
+                ),
             );
             //leftAccordion
             echo ('<div class="accordion" id="accordionOne" data-aos="fade-right" data-aos-duration="1000">');

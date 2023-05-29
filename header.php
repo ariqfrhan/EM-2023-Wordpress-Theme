@@ -34,7 +34,7 @@
   <body>
   <nav id="navbar_top" class="navbar navbar-expand-lg bg-transparent">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://em.ub.ac.id/">
           <img src="<?php echo get_theme_file_uri("/assets/Logo EM.png")?>" width="160px" alt="Logo-EM">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item me-3">
-              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              <a class="nav-link active" aria-current="page" href="https://em.ub.ac.id/">Beranda</a>
             </li>
             <li class="nav-item me-3">
               <a class="nav-link" href="#">Berita</a>
@@ -64,7 +64,7 @@
                     </li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Internal</a>
+                <li><a class="dropdown-item" href="https://em.ub.ac.id/kemenkoan-internal-2023/">Internal</a>
                   <ul class="dropdown-menu dropdown-submenu animate slideIn">
                     <li>
                       <a class="dropdown-item" href="#">Kementerian Keuangan</a>
@@ -73,7 +73,7 @@
                     </li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Pengabdian</a>
+                <li><a class="dropdown-item" href="https://em.ub.ac.id/kemenkoan-pengabdian-2023/">Pengabdian</a>
                   <ul class="dropdown-menu dropdown-submenu animate slideIn">
                     <li>
                       <a class="dropdown-item" href="#">Kementerian Sosial Masyarakat</a>
@@ -82,7 +82,7 @@
                     </li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Pergerakan</a>
+                <li><a class="dropdown-item" href="https://em.ub.ac.id/kemenkoan-pergerakan-2023/">Pergerakan</a>
                   <ul class="dropdown-menu dropdown-submenu animate slideIn">
                     <li>
                       <a class="dropdown-item" href="#">Kementerian Advokesma</a>
@@ -91,7 +91,7 @@
                     </li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Pelayanan</a>
+                <li><a class="dropdown-item" href="https://em.ub.ac.id/kemenkoan-pelayanan-2023/">Pelayanan</a>
                   <ul class="dropdown-menu dropdown-submenu animate slideIn">
                     <li>
                       <a class="dropdown-item" href="#">Kementerian Kominfo</a>
@@ -100,7 +100,7 @@
                     </li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Pengembangan</a>
+                <li><a class="dropdown-item" href="https://em.ub.ac.id/kemenkoan-pengembangan-2023/">Pengembangan</a>
                   <ul class="dropdown-menu dropdown-submenu animate slideIn">
                     <li>
                       <a class="dropdown-item" href="#">Kementerian Rispensi</a>
@@ -117,11 +117,11 @@
             </li>
           </ul>
           <div class="d-flex">
-            <a class="pe-2 logo-socmed" href="twitter.com"><img src="<?php echo get_theme_file_uri("/assets/images/twitter_dark.png")?>" width="36px"></a>
-            <a class="pe-2 logo-socmed" href="youtube.com"><img src="<?php echo get_theme_file_uri("/assets/images/youtube_dark.png")?>" width="36px"></a>
-            <a class="pe-2 logo-socmed" href="twitter.com"><img src="<?php echo get_theme_file_uri("/assets/images/tiktok_dark.png")?>" width="36px"></a>
-            <a class="pe-2 logo-socmed" href="youtube.com"><img src="<?php echo get_theme_file_uri("/assets/images/linkedin_dark.png")?>" width="36px"></a>
-            <a class="pe-2 logo-socmed" href="youtube.com"><img src="<?php echo get_theme_file_uri("/assets/images/instagram_dark.png")?>" width="36px"></a>
+            <a class="pe-2 logo-socmed" href="https://twitter.com/em_ubofficial"><img src="<?php echo get_theme_file_uri("/assets/images/twitter_dark.png")?>" width="36px"></a>
+            <a class="pe-2 logo-socmed" href="https://www.youtube.com/@EMUBOfficial"><img src="<?php echo get_theme_file_uri("/assets/images/youtube_dark.png")?>" width="36px"></a>
+            <a class="pe-2 logo-socmed" href="https://www.tiktok.com/@em_ubofficial"><img src="<?php echo get_theme_file_uri("/assets/images/tiktok_dark.png")?>" width="36px"></a>
+            <a class="pe-2 logo-socmed" href="https://www.linkedin.com/company/em-ub-2022/"><img src="<?php echo get_theme_file_uri("/assets/images/linkedin_dark.png")?>" width="36px"></a>
+            <a class="pe-2 logo-socmed" href=" https://www.instagram.com/em_ubofficial/"><img src="<?php echo get_theme_file_uri("/assets/images/instagram_dark.png")?>" width="36px"></a>
           </div>
         </div>
       </div>

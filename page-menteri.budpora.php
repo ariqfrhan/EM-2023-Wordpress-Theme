@@ -45,6 +45,7 @@ get_header() ?>
 
     #proker {
         padding-bottom: 10vh;
+        margin-bottom: 10vh;
     }
 
     .accordion-body {
@@ -85,37 +86,31 @@ get_header() ?>
         <div class="row row-cols-md-2 row-cols-1">
             <?php
             $leftAccordionData = array(
-                // array(
-                //     "heading" => "Awarding Staff",
-                //     "content" => "Awarding Staff merupakan suatu kegiatan program kerja sebagai bentuk apresiasi yang diberikan kepada kepada pengurus EM UB yang berkomitmen tinggi dan menjadi yang paling baik diantara yang terbaik yang nantinya akan diposting dalam feed akun instagram EM mengadakan acara award secara langsung."
-                // ),
-                // array(
-                //     "heading" => "Farewell Party",
-                //     "content" => "Farewell Party merupakan suatu kegiatan perpisahan untuk mengapresiasi setelah 1 periode kepengurusan para pengurus dan menjadi acara penutup setelah 1 tahun EM UB 2023 bekerja."
-                // ),
-                // array(
-                //     "heading" => "OPSI (Optimalisasi dan Evaluasi)",
-                //     "content" => "Opsi merupakan suatu pelatihan workshop softkill dan juga seminar di khususkan untuk pengembangan internal staff EM UB 2023. Opsi juga merupakan salah satu cara untuk mengetahui kekurangan, kelemahan, dan kekuatan dalam segi perencanaan dan implementasi kegiatan/program."
-                // ),
-                // array(
-                //     "heading" => "PENA (Penilaian Kinerja)",
-                //     "content" => "PENA (Penilaian kinerja) ini merupakan suatu bentuk penilaian sebagai tujuan untuk menilai kinerja dari para BPI/H& Staff disetiap Biro/Kementrian nya yang apabila terdapat ditemukannya hasil penilaian yang kurang baik maka akan dilakukan pemanggilan untuk dievaluasi."
-                // )
+                array(
+                    "heading" => "Brafo (Brawijaya Info)",
+                    "content" => "Brafo hadir dengan memberikan informasi yang berkaitan dengan lomba-lomba terkait minat dan bakat dari mahasiswa
+                    Universitas Brawijaya dengan cakupan regional, nasional, hingga internasional. Selain itu juga
+                    mengawal mahasiswa yang berkesempatan mengikuti perlombaan."
+                ),
+                array(
+                    "heading" => "Bharatayudha",
+                    "content" => "Bharatayudha merupakan program kerja dalam bentuk festival yang di dalamnya berisikan pameran
+                    hasil karya seni serta penampilan dari masing-masing UKM yang ada di Universitas
+                    Brawijaya serta guest star."
+                ),
             );
             $rightAccordionData = array(
-                // array(
-                //     "heading" => "BOCIL (Bounding N Chill)",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "Oprec Staff Ahli/Magang, Welcoming Staff, dan Training Organization",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "RAKAB (Rapat Kabinet)",
-                //     "content" => "Rapat kerja ini diharapkan menjadi jalan terang bagi pengurus EM UB 23 untuk mewujudkan visi melalui berbagai misi selama satu periode kedepan. Mengingat bahwa dalam menjalankan program kerja, masing masing kementerian pasti akan saling bersinergi dengan kementerian yang lain. Sehingga penting bagi Kabinet Karya Paripurna untuk melakukan harmonisasi semaksimal mungkin."
-                // ),
-
+                array(
+                    "heading" => "Brawijaya Tournament",
+                    "content" => "Brawijaya Tournament merupakan bentuk serta wadah bagi mahasiswa untuk
+                    ikut berpartisipasi dalam kompetisi internasional dalam bidang olahraga."
+                ),
+                array(
+                    "heading" => "Cendikia Budaya",
+                    "content" => "Cendikia Budaya merupakan program kerja dalam bentuk edukasi kepada mahasiswa dan juga khalayak
+                    umum melalui kunjungan museum, tempat bersejarah kebudayaan di malang dengan
+                    berbentuk video atau vlog."
+                ),
             );
             //leftAccordion
             echo ('<div class="accordion" id="accordionOne" data-aos="fade-right" data-aos-duration="1000">');

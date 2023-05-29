@@ -85,36 +85,50 @@ get_header() ?>
         <div class="row row-cols-md-2 row-cols-1">
             <?php
             $leftAccordionData = array(
-                // array(
-                //     "heading" => "Awarding Staff",
-                //     "content" => "Awarding Staff merupakan suatu kegiatan program kerja sebagai bentuk apresiasi yang diberikan kepada kepada pengurus EM UB yang berkomitmen tinggi dan menjadi yang paling baik diantara yang terbaik yang nantinya akan diposting dalam feed akun instagram EM mengadakan acara award secara langsung."
-                // ),
-                // array(
-                //     "heading" => "Farewell Party",
-                //     "content" => "Farewell Party merupakan suatu kegiatan perpisahan untuk mengapresiasi setelah 1 periode kepengurusan para pengurus dan menjadi acara penutup setelah 1 tahun EM UB 2023 bekerja."
-                // ),
-                // array(
-                //     "heading" => "OPSI (Optimalisasi dan Evaluasi)",
-                //     "content" => "Opsi merupakan suatu pelatihan workshop softkill dan juga seminar di khususkan untuk pengembangan internal staff EM UB 2023. Opsi juga merupakan salah satu cara untuk mengetahui kekurangan, kelemahan, dan kekuatan dalam segi perencanaan dan implementasi kegiatan/program."
-                // ),
-                // array(
-                //     "heading" => "PENA (Penilaian Kinerja)",
-                //     "content" => "PENA (Penilaian kinerja) ini merupakan suatu bentuk penilaian sebagai tujuan untuk menilai kinerja dari para BPI/H& Staff disetiap Biro/Kementrian nya yang apabila terdapat ditemukannya hasil penilaian yang kurang baik maka akan dilakukan pemanggilan untuk dievaluasi."
-                // )
+                array(
+                    "heading" => "Abdi Desa",
+                    "content" => "Abdi Desa hadir untuk membersamai masyarakat desa dalam hal
+                    pengembangan potensi yang ada dalam desa tersebut. Dalam program kerja ini
+                    meliputi bidang kesehatan lingkungan dan sosial ekonomi budaya."
+                ),
+                array(
+                    "heading" => "Brawijaya for Inclusivity",
+                    "content" => "Brawijaya for Inclusivity merupakan program untuk membentuk lingkungan kampus
+                    yang inklusif secra komprehensif. Diwujudkan dengan mengoptimalkan kolaborasi
+                    dalam campaign inklusi serta mengadakan edukasi inklusi."
+                ),
+                array(
+                    "heading" => "SSB (Sinergisitas Sosma Brawijaya)",
+                    "content" => "SSB merupakan forum silahturahmi dan kolaborasi yang dilkukan oleh SOSMA EM dengan
+                    SOSMA BEM Fakultas UB untuk menjalin hubungan yang baik dengan membahas
+                    setiap program yang bisa di kolabarasikan nantinya antar SOSMA se Brawijaya."
+                ),
+                array(
+                    "heading" => "VIBRAS (Visual Branding Sosma)",
+                    "content" => "VIBRAS merupakan program yang memuat redaksi dan branding apa itu SOSMA sebenarnya melalui
+                    redaksi liputan atau liputan langsung seluruh kegiatan SOSMA dalam bentuk poster,
+                    feeds, video dan infografis. Media sosial yang akan menjadi fokus yaitu Instagram,
+                    Twitter, Spotify, Website, dan Tiktok."
+                )
             );
             $rightAccordionData = array(
-                // array(
-                //     "heading" => "BOCIL (Bounding N Chill)",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "Oprec Staff Ahli/Magang, Welcoming Staff, dan Training Organization",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "RAKAB (Rapat Kabinet)",
-                //     "content" => "Rapat kerja ini diharapkan menjadi jalan terang bagi pengurus EM UB 23 untuk mewujudkan visi melalui berbagai misi selama satu periode kedepan. Mengingat bahwa dalam menjalankan program kerja, masing masing kementerian pasti akan saling bersinergi dengan kementerian yang lain. Sehingga penting bagi Kabinet Karya Paripurna untuk melakukan harmonisasi semaksimal mungkin."
-                // ),
+                array(
+                    "heading" => "Sosma Movement",
+                    "content" => "Sosma Movement memiliki tugas dalam merespon isu-isu strategis dan
+                    kontemporer sosial masyarakat dengan analisis rasional, berkelanjutan, dan dapat diimplentasikan."
+                ),
+                array(
+                    "heading" => "Brawijaya Urban Social Project",
+                    "content" => "Brawijaya Urban Social Project merupakan rehabilitasi sosial di daerah masyarakat kota yang didasarkan pada potensi daerah
+                    setempat yang bisa dikembangkan sehingga taraf kehidupan meningkat ke arah yang
+                    lebih baik dan berkelanjutan."
+                ),
+                array(
+                    "heading" => "Mega Ekspedisi Brawijaya",
+                    "content" => "Mega Ekspedisi Brawijaya merupakan program ekspedisi yang dilakukan di Banda Neira, Maluku dan menjadi
+                    sebuah wadah kolaborasi dengan pihak luar SOSMA EM sehingga dapat memperluas
+                    dampak pengabdian secara absolut."
+                ),
 
             );
             //leftAccordion

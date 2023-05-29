@@ -85,36 +85,51 @@ get_header() ?>
         <div class="row row-cols-md-2 row-cols-1">
             <?php
             $leftAccordionData = array(
-                // array(
-                //     "heading" => "Awarding Staff",
-                //     "content" => "Awarding Staff merupakan suatu kegiatan program kerja sebagai bentuk apresiasi yang diberikan kepada kepada pengurus EM UB yang berkomitmen tinggi dan menjadi yang paling baik diantara yang terbaik yang nantinya akan diposting dalam feed akun instagram EM mengadakan acara award secara langsung."
-                // ),
-                // array(
-                //     "heading" => "Farewell Party",
-                //     "content" => "Farewell Party merupakan suatu kegiatan perpisahan untuk mengapresiasi setelah 1 periode kepengurusan para pengurus dan menjadi acara penutup setelah 1 tahun EM UB 2023 bekerja."
-                // ),
-                // array(
-                //     "heading" => "OPSI (Optimalisasi dan Evaluasi)",
-                //     "content" => "Opsi merupakan suatu pelatihan workshop softkill dan juga seminar di khususkan untuk pengembangan internal staff EM UB 2023. Opsi juga merupakan salah satu cara untuk mengetahui kekurangan, kelemahan, dan kekuatan dalam segi perencanaan dan implementasi kegiatan/program."
-                // ),
-                // array(
-                //     "heading" => "PENA (Penilaian Kinerja)",
-                //     "content" => "PENA (Penilaian kinerja) ini merupakan suatu bentuk penilaian sebagai tujuan untuk menilai kinerja dari para BPI/H& Staff disetiap Biro/Kementrian nya yang apabila terdapat ditemukannya hasil penilaian yang kurang baik maka akan dilakukan pemanggilan untuk dievaluasi."
-                // )
+                array(
+                    "heading" => "Lekas Pulih",
+                    "content" => "Lekas Pulih merupakan suatu layanan bagi mahasiswa Universitas Brawijaya yang
+                    menjadi korban kekerasan seksual yang dimana membantu dan memfasilitasi
+                    mahasiswa yang menjadi korban dari pelecehan dan kekerasan seksual untuk
+                    mendapatkan pendampingan, baik pendampingan psikologi, hukum, ataupun
+                    pendampingan lain."
+                ),
+                array(
+                    "heading" => "Lentera Perjuangan",
+                    "content" => "Lentera Perjuangan adalah program dimana setiap civitas akademika UB baik laki-laki maupun perempuan yang
+                    ingin ikut mempropagandakan pemberdayaan perempuan dan kesetaraan gender
+                    dapat mengirimkan propagandanya berupa tulisan, audio, video, animasi kepada email
+                    P3 EM UB yang akan dipublikasikan setelah adanya seleksi yang dilakukan oleh
+                    internal kementerian."
+                ),
+                array(
+                    "heading" => "16 HAKTP",
+                    "content" => "16 HAKTP merupakan program kerja yang berjalan selama 16 hari dengan tujuan kampanye terkait penolakan kekerasan terharap
+                    perempuan yang meliputi sosialisasi, layanan pengaduan,
+                    dan campaign lainnya."
+                ),
             );
             $rightAccordionData = array(
-                // array(
-                //     "heading" => "BOCIL (Bounding N Chill)",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "Oprec Staff Ahli/Magang, Welcoming Staff, dan Training Organization",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "RAKAB (Rapat Kabinet)",
-                //     "content" => "Rapat kerja ini diharapkan menjadi jalan terang bagi pengurus EM UB 23 untuk mewujudkan visi melalui berbagai misi selama satu periode kedepan. Mengingat bahwa dalam menjalankan program kerja, masing masing kementerian pasti akan saling bersinergi dengan kementerian yang lain. Sehingga penting bagi Kabinet Karya Paripurna untuk melakukan harmonisasi semaksimal mungkin."
-                // ),
+                array(
+                    "heading" => "Ruang Tengah",
+                    "content" => "Ruang Tengah merupakan sebuah ruang aman bagi
+                    mahasiswa untuk menyuarakan pendapat dan perspektif lain
+                    yang diadakan untuk berdialog membahas tentang isu-isu
+                    keperempuanan dari berbagai perspektif dan sudut pandang
+                    serta adanya pengenalan, pemahaman dan pencerdasan
+                    kepada mahasiswa Universitas Brawijaya mengenai isu-isu
+                    keperempuanan yang sedang berkembang di dalam kampus
+                    maupun di skala regional dan nasional."
+                ),
+                array(
+                    "heading" => "Tuan Puan Bersuara",
+                    "content" => "Tuan Puan Bersuara merupakan program kerja yang tertuang pada konten IG yang nantinya berbentuk seperti menfess yang berisi tentang
+                    keresahan dan kekecewaan mahasiswa/i Universitas Brawijaya secara anonim mengenai kekecewaan terhadap penanganan KSP atau ketidakadilan gender
+                    yang ada di Universitas Brawijaya."
+                ),
+                array(
+                    "heading" => "P3 The Explorer",
+                    "content" => "P3 The Explorer merupakan program kerja yang melakukan kunjungan ke NGO untuk melakukan study visit."
+                ),
 
             );
             //leftAccordion

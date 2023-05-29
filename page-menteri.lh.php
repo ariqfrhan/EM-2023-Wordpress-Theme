@@ -85,36 +85,52 @@ get_header() ?>
         <div class="row row-cols-md-2 row-cols-1">
             <?php
             $leftAccordionData = array(
-                // array(
-                //     "heading" => "Awarding Staff",
-                //     "content" => "Awarding Staff merupakan suatu kegiatan program kerja sebagai bentuk apresiasi yang diberikan kepada kepada pengurus EM UB yang berkomitmen tinggi dan menjadi yang paling baik diantara yang terbaik yang nantinya akan diposting dalam feed akun instagram EM mengadakan acara award secara langsung."
-                // ),
-                // array(
-                //     "heading" => "Farewell Party",
-                //     "content" => "Farewell Party merupakan suatu kegiatan perpisahan untuk mengapresiasi setelah 1 periode kepengurusan para pengurus dan menjadi acara penutup setelah 1 tahun EM UB 2023 bekerja."
-                // ),
-                // array(
-                //     "heading" => "OPSI (Optimalisasi dan Evaluasi)",
-                //     "content" => "Opsi merupakan suatu pelatihan workshop softkill dan juga seminar di khususkan untuk pengembangan internal staff EM UB 2023. Opsi juga merupakan salah satu cara untuk mengetahui kekurangan, kelemahan, dan kekuatan dalam segi perencanaan dan implementasi kegiatan/program."
-                // ),
-                // array(
-                //     "heading" => "PENA (Penilaian Kinerja)",
-                //     "content" => "PENA (Penilaian kinerja) ini merupakan suatu bentuk penilaian sebagai tujuan untuk menilai kinerja dari para BPI/H& Staff disetiap Biro/Kementrian nya yang apabila terdapat ditemukannya hasil penilaian yang kurang baik maka akan dilakukan pemanggilan untuk dievaluasi."
-                // )
+                array(
+                    "heading" => "Zero Waste Action",
+                    "content" => "Zero Waste Action merupakan kegiatan yang dilakukan guna untuk mengurangi dampak pencemaran lingkungan
+                    akibat buang sampah sembarangan yang tidak di pilah dan menjadikan sampah adalah
+                    benda yang bisa memberi manfaat bagi masyarakat terkhusus Mahasiwa Universitas
+                    Brawijaya."
+                ),
+                array(
+                    "heading" => "Lingkar Lestari Brawijaya",
+                    "content" => "Lingkar Lestari Brawijaya merupakan kegiatan kolaborasi Kementrian Lingkungan
+                    Hidup EM 2023 dan LH BEM setiap fakultas yang ada di Universitas Brawijaya.
+                    Kegiatan ini dengan melakukan kegiatan pertemuan rutin antar Kementrian Lingkungan
+                    Hidup."
+                ),
+                array(
+                    "heading" => "Eco-Policy (Sekolah Ekologi, Politik, dan
+                    Konservasi / Sanitasi)",
+                    "content" => "Eco-Policy merupakan workshop dan FGD bersertifikasi yang diiisi oleh beberapa materi
+                    dalam beberapa jenjang waktu, terdapat beberapa rangkaian yang menyasar mahasiswa dan masyarakat daerah tertentu, untuk mahasiswa mengikuti rangkaian
+                    pendidikan dan volunteer revitalisasi/clean up (harapannya dapat dimasukkan dalam
+                    rangkaian eco–tourism dan diakhiri dengan kegiatan revitalisasi)."
+                ),
             );
             $rightAccordionData = array(
-                // array(
-                //     "heading" => "BOCIL (Bounding N Chill)",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "Oprec Staff Ahli/Magang, Welcoming Staff, dan Training Organization",
-                //     "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
-                // ),
-                // array(
-                //     "heading" => "RAKAB (Rapat Kabinet)",
-                //     "content" => "Rapat kerja ini diharapkan menjadi jalan terang bagi pengurus EM UB 23 untuk mewujudkan visi melalui berbagai misi selama satu periode kedepan. Mengingat bahwa dalam menjalankan program kerja, masing masing kementerian pasti akan saling bersinergi dengan kementerian yang lain. Sehingga penting bagi Kabinet Karya Paripurna untuk melakukan harmonisasi semaksimal mungkin."
-                // ),
+                array(
+                    "heading" => "ECOTOURISM",
+                    "content" => "ECOTOURISM merupakan kegiatan pengembangan yang dilakukan dalam bentuk sistem
+                    pengelolaan wisata alam, perawatan ekosistem yang ada, penerimaan tamu atau tour
+                    guide, sistem pembayaran dan pembangunan fasilitas yang dapat menunjang kegiatan
+                    ekonomi."
+                ),
+                array(
+                    "heading" => "Peduli Makan (Perhatikan Reduksi Lingkungan
+                    Masifkan Pergerakan)",
+                    "content" => "Peduli Makan merupakan kegiatan semi – insidental, yang dilakukan selama satu periode kepengurusan satu kuartal
+                    satu kali, dan di kuartal ke-dua atau ke-tiga terdapat seminar bertaraf nasional yang
+                    harapannya akan diselenggarakan di Widyaloka atau di Samantha Krida."
+                ),
+                array(
+                    "heading" => "ENCoTree (Enviromental
+                    Communitation Centre-Media)",
+                    "content" => "ENCoTree
+                    memberikan informasi seputar lingkungan hidup dalam bentuk berita, isu lingkungan
+                    dan kegiatan yang menyangkut lingkungan hidup melalui media sosial terkini dan
+                    spanduk di wilayah Universitas Brawijaya."
+                ),
 
             );
             //leftAccordion

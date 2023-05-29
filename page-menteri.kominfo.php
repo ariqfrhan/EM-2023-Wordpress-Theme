@@ -86,34 +86,62 @@ get_header() ?>
             <?php
             $leftAccordionData = array(
                 array(
-                    "heading" => "Awarding Staff",
-                    "content" => "Awarding Staff merupakan suatu kegiatan program kerja sebagai bentuk apresiasi yang diberikan kepada kepada pengurus EM UB yang berkomitmen tinggi dan menjadi yang paling baik diantara yang terbaik yang nantinya akan diposting dalam feed akun instagram EM mengadakan acara award secara langsung."
+                    "heading" => "EMUB Apps",
+                    "content" => "EMUBApps sebagai bentuk upgrade platform website EM UB menjadi aplikasi
+                    smartphone. Program ini bertujuan untuk memberikan layanan digital terhadap
+                    pengaduan/ komplain mahasiswa dan informasi terpadu."
                 ),
                 array(
-                    "heading" => "Farewell Party",
-                    "content" => "Farewell Party merupakan suatu kegiatan perpisahan untuk mengapresiasi setelah 1 periode kepengurusan para pengurus dan menjadi acara penutup setelah 1 tahun EM UB 2023 bekerja."
+                    "heading" => "LTAB (Let’s Talk About Brawijaya)",
+                    "content" => "LTAB merupakan konten video kreatif berdurasi satu menit atau lebih berisi informasi mengenai
+                    lingkungan kampus Universitas Brawijaya. Konten dapat berupa penelusuran, sesi
+                    tanya jawab dengan mahasiswa, atau pengenalan sarana-prasarana yang ada di
+                    lingkungan kampus."
                 ),
                 array(
-                    "heading" => "OPSI (Optimalisasi dan Evaluasi)",
-                    "content" => "Opsi merupakan suatu pelatihan workshop softkill dan juga seminar di khususkan untuk pengembangan internal staff EM UB 2023. Opsi juga merupakan salah satu cara untuk mengetahui kekurangan, kelemahan, dan kekuatan dalam segi perencanaan dan implementasi kegiatan/program."
+                    "heading" => "Maintenance Website dan Sosial Media EM UB ",
+                    "content" => "Maintenance dilakukan untuk memelihara dan memperbarui, serta mengunggah informasi terkini ke website dan
+                    sosial media EM UB, yang meliputi Instagram, Tiktok, Official LINE, LinkedIn, Twitter, Youtube,
+                    dan Spotify."
                 ),
                 array(
-                    "heading" => "PENA (Penilaian Kinerja)",
-                    "content" => "PENA (Penilaian kinerja) ini merupakan suatu bentuk penilaian sebagai tujuan untuk menilai kinerja dari para BPI/H& Staff disetiap Biro/Kementrian nya yang apabila terdapat ditemukannya hasil penilaian yang kurang baik maka akan dilakukan pemanggilan untuk dievaluasi."
-                )
+                    "heading" => "Podcast Brawijaya Bertukar Cerita",
+                    "content" => "Podcast Brawijaya Bertukar Cerita merupakan pembuatan konten video dan audio dengan format mirip dengan radio yang bisa di
+                    streaming atau didownload melalui Internet untuk dikonsumsi para pendengar."
+                ),
+                array(
+                    "heading" => "Postingan Rutin",
+                    "content" => "Postingan Rutin merupakan penyaluran konten visual yang memuat informasi yang terdiri dari visualisasi dan branding
+                    program kerja dari kementerian, badan, atau
+                    direktorat yang ada di EM UB ke linimasa EM UB."
+                ),
             );
             $rightAccordionData = array(
                 array(
-                    "heading" => "BOCIL (Bounding N Chill)",
-                    "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
+                    "heading" => "Company Profile EM UB",
+                    "content" => "Company Profile EM UB merupakan pembuatan video kreatif yang memberikan ikhtisar tentang visi misi, tujuan, nilai,
+                    program dan layanan, kemitraan, dampak, dan struktur tata kelola organisasi yang ada
+                    di EM UB."
                 ),
                 array(
-                    "heading" => "Oprec Staff Ahli/Magang, Welcoming Staff, dan Training Organization",
-                    "content" => "Bounding n chill merupakan suatu kegiatan refreshing yang bertujuan untuk mempererat kedekatan dan kekompakan antar pengurus maupun mengupgrade semangat pada masing-masing pengurus yang dimana dapat diharapkan untuk meningkatkan rasa kepemilikan yang dapat meningkatkan kinerja pengurus EM UB."
+                    "heading" => "Tech101",
+                    "content" => "Tech101 merupakan konten video kreatif yang memberikan informasi dan strategi kepada
+                    audiens untuk menggunakan teknologi secara lebih efektif. Konten video kiat teknologi
+                    dapat mencakup berbagai topik. Video dapat dibuat dalam format penelusuran, panduan langkah demi
+                    langkah, dan sesi tanya jawab."
                 ),
                 array(
-                    "heading" => "RAKAB (Rapat Kabinet)",
-                    "content" => "Rapat kerja ini diharapkan menjadi jalan terang bagi pengurus EM UB 23 untuk mewujudkan visi melalui berbagai misi selama satu periode kedepan. Mengingat bahwa dalam menjalankan program kerja, masing masing kementerian pasti akan saling bersinergi dengan kementerian yang lain. Sehingga penting bagi Kabinet Karya Paripurna untuk melakukan harmonisasi semaksimal mungkin."
+                    "heading" => "Bootcamp Graphic Design, Videography, and 
+                    Content
+                    Writing: Unlocking Your Creative
+                    Potential",
+                    "content" => "Bootcamp merupakan kegiatan atau sesi pelatihan internal yang memberikan peningkatan keterampilan
+                    desain grafis, videografi, dan penulisan konten kepada peserta. Bootcamp dimulai dengan presentasi tentang masalah desain, diikuti dengan sesi brainstorming kelompok
+                    dan pembuatan ide."
+                ),
+                array(
+                    "heading" => "Remembrance Day",
+                    "content" => "Remembrance Day merupakan konten untuk memperingati hari yang telah ditetapkan untuk memperingati peristiwa, orang, atau masalah tertentu. Konten peringatan dapat mencakup infografis atau kampanye media sosial."
                 ),
 
             );

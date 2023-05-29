@@ -35,6 +35,8 @@ function kemenkoan($attr) {
             require("page-menko.pengabdian.php");
         }else if(array_values($attr)[0] == "sekbend"){
             require("page-menko.sekbend.php");
+        }else if(array_values($attr)[0] == "sekpres"){
+            require("page-sekretariat.presiden.php");
         }
     }else{
         require("page-pres.wapres.php");
@@ -78,4 +80,9 @@ function kementerian($attr) {
     }
 }
 add_shortcode('kementerian', 'kementerian');
+
+function berita(){
+    require('page-berita.php');
+}
+add_shortcode('berita','berita');
 ?>

@@ -9,14 +9,14 @@ get_header() ?>
     display: none;
   }
 
-  /* menko */
-  #menko {
+  /* preswapres */
+  #preswapres {
     height: auto;
     padding-bottom: 10vh;
   }
 
 
-  #menko .line {
+  #preswapres .line {
     border: 0;
     border-radius: 50px;
     height: 20px;
@@ -25,21 +25,21 @@ get_header() ?>
     opacity: 1;
   }
 
-  #menko #img-menko {
+  #preswapres #img-preswapres {
     cursor: pointer;
     padding: 10px;
     transition: 1s;
     width: 480px;
   }
 
-  #img-menko:hover {
+  #img-preswapres:hover {
     transform: translateY(-4px);
     transition: 1s;
   }
 
-  /* Menko */
+  /* preswapres */
 
-  #menko-kementrian {
+  #preswapres-kementrian {
     padding-bottom: 10vh;
   }
 
@@ -58,10 +58,10 @@ get_header() ?>
     box-shadow: 0px 7.5px 15px rgb(0, 0, 0, 0.35);
   }
 
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 428px) {
 
-    #menko #img-menko{
-      width: 480px;
+    #preswapres #img-preswapres{
+      width: 420px;
     }
 
     .image-logo {
@@ -73,9 +73,9 @@ get_header() ?>
     }
   }
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (min-width: 768px) and (max-width:1200px) {
 
-    #menko #img-menko{
+    #preswapres #img-preswapres{
       width: 480px;
     }
 
@@ -89,12 +89,12 @@ get_header() ?>
   }
 </style>
 
-<header id="menko">
+<header id="preswapres">
   <div class="container">
     <div class="row">
       <div class="col-md-7 col-12 my-auto" data-aos="fade-right" data-aos-duration="1000">
-        <div class="title-menko text-md-start text-sm-start text-center">
-          <h2 class="fw-bold">KEMENTERIAN KOORDINATOR <br> PERGERAKAN</h2>
+        <div class="title-preswapres text-md-start text-sm-start text-center">
+          <h2 class="fw-bold">PRESIDEN DAN WAKIL PRESIDEN</h2>
           <h2 class="fw-bold bawah">EM UB 2023</h2>
           <div class="col-md-7 col-12">
             <hr class="line">
@@ -102,29 +102,10 @@ get_header() ?>
         </div>
       </div>
       <div class="col-md-5 col-12 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-        <img src="<?php echo get_theme_file_uri("/assets/images/menko-pergerakan.png") ?>" class="justify-content-center" id="img-menko">
+        <img src="<?php echo get_theme_file_uri("/assets/images/preswapres.png") ?>" class="justify-content-center" id="img-preswapres">
       </div>
     </div>
   </div>
 </header>
-
-<section id="menko-kementrian">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-4 col-sm-6" data-aos="zoom-out-up" data-aos-duration="1000">
-        <img src="<?php echo get_theme_file_uri("/assets/images/advo-logo.png") ?>" class="image-logo" onclick="window.open('https://em.ub.ac.id/', '_blank')">
-        <h3 class="fw-bold">Advokesma</h3>
-      </div>
-      <div class="col-lg-4 col-sm-6" data-aos="zoom-out-up" data-aos-duration="1000">
-        <img src="<?php echo get_theme_file_uri("/assets/images/kastrat-logo.png") ?>" class="image-logo" onclick="window.open('https://em.ub.ac.id/', '_blank')">
-        <h3 class="fw-bold">Kastrat</h3>
-      </div>
-      <div class="col-lg-4 col-sm-6" data-aos="zoom-out-up" data-aos-duration="1000">
-        <img src="<?php echo get_theme_file_uri("/assets/images/p3-logo.png") ?>" class="image-logo" onclick="window.open('https://em.ub.ac.id/', '_blank')">
-        <h3 class="fw-bold">P3</h3>
-      </div>
-    </div>
-  </div>
-</section>
 
 <?php get_footer() ?>
