@@ -16,6 +16,14 @@ get_header() ?>
         background-repeat: no-repeat;
     }
 
+
+    .col:hover .custom-card {
+        transition: 0.5s;
+        transform: translateY(-4px);
+        -webkit-box-shadow: 0px 7.5px 15px rgb(0, 0, 0, 0.35);
+        box-shadow: 0px 7.5px 15px rgb(0, 0, 0, 0.35);
+    }
+
     .news {
         padding-left: 8vw;
         padding-right: 8vw;
@@ -102,7 +110,6 @@ get_header() ?>
                     $jumlah++;
                     $aos;
                     $aos = 'data-aos="zoom-in" data-aos-duration="1000"';
-
                     if (has_post_thumbnail()) {
                         $url =  get_the_post_thumbnail_url(get_the_ID(), 'on-post-thumbnail');
                         echo '<div class="col">
