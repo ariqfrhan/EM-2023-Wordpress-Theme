@@ -99,7 +99,6 @@ get_header() ?>
     .bg-title-yellow {
         background-color: #F9DC1E;
         border-radius: 75px;
-        ;
         font-weight: 700;
         font-size: 16px;
         cursor: pointer;
@@ -328,26 +327,26 @@ get_header() ?>
         </div>
         <div class="row mt-md-5 p-md-5">
             <div class="col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="bg-title-yellow badge text-black p-3">
+                <div class="bg-poin-orange badge text-black p-3">
                     Isu Pembangunan Berkelanjutan <img src="<?php echo get_theme_file_uri("/assets/images/pembangunan.png") ?>" width="32px" class="ms-2">
                 </div><br>
-                <div class="bg-poin-orange mt-4 badge text-white text-center p-3 ms-md-5 ms-0">
+                <div class="bg-poin-black mt-4 badge text-white text-center p-3 ms-md-5 ms-0">
                     Sustainable Development Goals (SDGs)
                 </div>
                 <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Indeks Pembangunan Manusia (IPM)
                 </div><br>
-                <div class="bg-poin-orange mt-1 badge text-white text-center p-3 ms-md-5">
+                <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Indeks Pembangunan Pemuda
                 </div>
             </div>
             <div class="col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="bg-title-yellow badge text-black p-3">
+                <div class="bg-poin-orange badge text-black p-3">
                     Isu Lingkungan Hidup
                     (Eco Movement) <img src="<?php echo get_theme_file_uri("/assets/images/tree.svg") ?>" width="24px" class="ms-2">
                 </div>
                 <br>
-                <div class="bg-poin-orange mt-4 badge text-white text-center p-3 ms-md-5">
+                <div class="bg-poin-black mt-4 badge text-white text-center p-3 ms-md-5">
                     Degradasi lingkungan
                 </div>
                 <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
@@ -355,38 +354,38 @@ get_header() ?>
                 </div>
             </div>
             <div class="col-lg-6 mt-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="bg-title-yellow badge text-black p-3">
+                <div class="bg-poin-orange badge text-black p-3">
                     Isu Pergerakan Nasional dan Internasional
                     <img src="<?php echo get_theme_file_uri("/assets/images/pergerakan.svg") ?>" width="32px" class=" ms-2">
                 </div>
-                <div class="bg-poin-orange mt-4 badge text-white text-center p-3 ms-md-5">
+                <div class="bg-poin-black mt-4 badge text-white text-center p-3 ms-md-5">
                     Demokrasi pasca berlakunya KUHP baru
                 </div>
                 <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Monitoring pengentasan kasus pelanggaran HAM berat
                 </div>
-                <div class="bg-poin-orange mt-1 badge text-white text-center p-3 ms-md-5">
+                <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Ancaman resesi ekonomi
                 </div><br>
                 <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Ancaman bagi pekerja pasca UU Cipta Kerja
                 </div>
-                <div class="bg-poin-orange mt-1 badge text-white text-center p-3 ms-md-5">
+                <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Ancaman non militer negara-negara berkembang
                 </div>
             </div>
             <div class="col-lg-6 mt-md-5" data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="bg-title-yellow badge text-black p-3">
+                <div class="bg-poin-orange badge text-black p-3">
                     Isu Pendidikan <img src="<?php echo get_theme_file_uri("/assets/images/pendidikan.svg") ?>" width="32px" class=" ms-2">
                 </div>
                 <br>
-                <div class="bg-poin-orange mt-4 badge text-white text-center p-3 ms-md-5">
+                <div class="bg-poin-black mt-4 badge text-white text-center p-3 ms-md-5">
                     Demokrasi dan kesejahteraan mahasiswa pasca PTN BH
                 </div>
                 <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Monitoring pengentasan kasus pelanggaran HAM berat
                 </div>
-                <div class="bg-poin-orange mt-1 badge text-white text-center p-3 ms-md-5">
+                <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
                     Komparasi paradigma pembangunan kapasitas<br> manusia dan pemuda
                 </div>
                 <div class="bg-poin-black mt-1 badge text-white text-center p-3 ms-md-5">
