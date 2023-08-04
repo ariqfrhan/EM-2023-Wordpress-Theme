@@ -35,6 +35,11 @@ get_header() ?>
         font-weight: 700;
         font-size: 20px;
         color: white;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
     }
 
     .sub-title {
@@ -70,7 +75,11 @@ get_header() ?>
             font-style: normal;
             font-weight: 700;
             font-size: 12px;
-
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
         }
 
         .sub-title {
@@ -114,10 +123,9 @@ get_header() ?>
                         $url =  get_the_post_thumbnail_url(get_the_ID(), 'on-post-thumbnail');
                         echo '<div class="col">
                         <div class="custom-card d-flex flex-column justify-content-end" style="background-image: url(\'' . $url . '\');"' . $aos . '>
-                            <div class="label mb-4 text-start d-flex">
-                                <div class="desc mx-2 my-auto">
-                                    <p class="title m-0">' . get_the_title() . '</p>
-                                    <p class="sub-title m-0">' . wp_trim_words(get_the_excerpt(), 12, '...') . '</p>
+                            <div class="label mb-4 text-center d-flex align-items-center">
+                                <div class="desc py-1 mx-2 overflow-hidden">
+                                    <p class="title">' . get_the_title() . '</p>
                                 </div>
                             </div>
                         </div>
