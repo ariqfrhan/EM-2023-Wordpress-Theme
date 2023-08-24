@@ -1,0 +1,210 @@
+/* halo of Brawijayans */
+
+#halo{
+    padding-top: 5vh;
+    height: auto;
+    padding-bottom: 5vh;
+}
+
+#halo #haloCard{
+    margin: 3vw;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    border-radius: 75px;
+    background-color: #343434;
+    -webkit-box-shadow: -5px 7.5px 15px rgb(0, 0, 0, 0.35);
+    box-shadow: -5px 7.5px 15px rgb(0, 0, 0, 0.35);
+}
+
+#haloCard .btn-warning{
+    color: white;
+    background-color: #F89F1F;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+#haloCard .btn-warning:hover{
+    color: black;
+    background-color: rgba(249,214,30,1);
+    border-color: #F9DC1E;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.bg-selamat{
+    display: inline-block;
+    padding: 15px;
+    background: rgb(248,159,31);
+    width: auto;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+#halo #teks-tentang{
+    text-align: justify;
+    font-weight: 500;
+}
+
+
+/* Visi */
+#visi{
+    margin-top: 20vh;
+    height: auto;
+    padding-bottom: 5vh;
+}
+
+.bg-poin-orange{
+    background-color: #F89F1F;
+    border-radius: 75px;;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bg-poin-orange:hover{
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 15px 2px #F89F1F;
+    box-shadow: 0px 0px 15px 2px #F89F1F;
+}
+
+.bg-poin-black{
+    background-color: #343434;
+    border-radius: 75px;;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bg-poin-black:hover{
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 15px 2px #343434;
+    box-shadow: 0px 0px 15px 2px #343434;
+}
+
+.bg-title-yellow{
+    background-color: #F9DC1E;
+    border-radius: 75px;;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bg-title-yellow:hover{
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 15px 2px #F9DC1E;
+    box-shadow: 0px 0px 15px 2px #F9DC1E;
+}
+
+/* Misi */
+#misi{
+    margin-top: 20vh;
+    height: auto;
+}
+
+#misi-title-mobile{
+    display: none;
+}
+
+#misi #misi-title{
+    text-align: end;
+}
+
+/* Fokus Isu Strategis */
+#fokus{
+    margin-top: 10vh;
+    height: auto;
+    padding-bottom: 10vh;
+}
+
+/* Goals */
+#goals{
+    margin-top: 10vh;
+    height: auto;
+    padding-bottom: 10vh;
+}
+
+.bg-urut{
+    padding: 10px;
+    background-color: #F9DC1E;
+    border-radius: 100%;
+}
+@media only screen and (max-width: 992px) {
+
+    .btn-warning{
+        width: 60%;
+        font-size: 12px;
+        margin-top: 5vh;
+        margin-left: 17vw;
+    }
+
+    .bg-selamat{
+        font-size: 16px;
+        margin-left: 10%;
+    }
+
+    #teks-tentang{
+        font-size: 12px;
+    }
+
+    #halo{
+        height: auto;
+    }
+
+    #haloCard img{
+        width: 95%;
+    }
+
+    #foto-card{
+        display: none;
+    }
+
+    #visi{
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .bg-poin-orange{
+        border-radius: 50px;
+        margin-top: 3vh;
+        font-size: 12px;
+    }
+    .bg-poin-black{
+        border-radius: 50px;
+        margin-top: 3vh;
+        font-size: 12px;
+    }
+
+    .bg-title-yellow{
+        font-size: 13px;
+        margin-top: 5vh;
+    }
+    .bg-urut{
+        padding: 5px;
+        background-color: transparent;
+        border-radius: 100%;
+    }
+
+    #misi{
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    #misi-title{
+        display: none;
+    }
+
+    #misi-title-mobile{
+        display: block;
+    }
+
+    #fokus{
+        text-align: center;
+    }
+
+    #goals{
+        text-align: center;
+    }
+}
